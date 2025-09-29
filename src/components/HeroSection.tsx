@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span>1,247 membres connectés</span>
               </div>
-              <div>⭐ 4.9/5 (Google Reviews)</div>
+              <div>      ⭐ 4.9/5 </div>
             </div>
           </div>
 
@@ -90,9 +90,7 @@ const HeroSection = () => {
                   S'abonner maintenant
                 </Button>
                 
-                <p className="text-xs text-gray-400">
-                  Résiliation possible à tout moment
-                </p>
+                <p className="text-xs text-gray-400">*Résiliation possible à tout moment*</p>
               </div>
             </div>
           </div>
