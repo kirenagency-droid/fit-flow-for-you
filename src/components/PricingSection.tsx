@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, Star } from "lucide-react";
 const PricingSection = () => {
-  const features = ["Accès illimité aux équipements", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Accès à tous les centres", "Vestiaires premium"];
+  const features = ["Accès illimité aux équipements", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Accès à tous les centres", "Vestiaires premium", "Invitations illimitées d'amis", "Gel de votre abonnement sans frais supplémentaires", "Yanga Sportswater inclus", "Accès illimité aux fauteuils de massage"];
   return <section className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         
