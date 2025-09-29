@@ -6,19 +6,7 @@ const PricingSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Section Header */}
-        <div className="text-center space-y-4 mb-16">
-          <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full">
-            <Star className="h-4 w-4" />
-            <span className="font-semibold">Offre Exceptionnelle</span>
-          </div>
-          <h2 className="text-4xl lg:text-5xl font-black text-foreground">
-            Accès Basic Fit à 2€
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            <span className="font-bold text-primary">Économisez 95%</span> sur votre abonnement Basic Fit ! 
-            Seulement 2€/mois au lieu de 40€. <span className="font-semibold">Rejoignez 1,247 membres qui économisent déjà !</span>
-          </p>
-        </div>
+        
 
         {/* Pricing Card */}
         <div className="max-w-lg mx-auto">
@@ -63,7 +51,7 @@ const PricingSection = () => {
                 <div className="space-y-4">
                   <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto flex items-center justify-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
                     <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
-                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <div className="w-2 h-2 bg-primary rounded-full px-0 my-0 py-0 mx-[4px]"></div>
                     </div>
                     S'abonner maintenant
                   </Button>
@@ -77,37 +65,7 @@ const PricingSection = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="mt-16 text-center space-y-6">
-          <p className="text-muted-foreground font-semibold flex items-center justify-center gap-2">
-            <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-            <span className="text-primary">1,247 personnes</span> économisent déjà avec cette offre
-          </p>
-          <div className="flex flex-wrap justify-center items-center space-x-8 opacity-80">
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
-                <Star className="h-3 w-3 text-yellow-800 fill-current" />
-              </div>
-              <div>
-                <div className="font-bold text-foreground">4.9/5</div>
-                <div className="text-sm text-muted-foreground">Google Reviews</div>
-              </div>
-            </div>
-            <div className="w-px h-8 bg-border hidden md:block"></div>
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                <div className="w-3 h-3 bg-white rounded-full"></div>
-              </div>
-              <div className="text-sm text-muted-foreground">Paiement 100% sécurisé</div>
-            </div>
-            <div className="w-px h-8 bg-border hidden md:block"></div>
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
-                <div className="w-2 h-2 bg-white rounded-full"></div>
-              </div>
-              <div className="text-sm text-muted-foreground">Support 24/7</div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>;
 };
