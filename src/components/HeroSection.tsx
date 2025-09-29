@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-fitness.jpg";
 const HeroSection = () => {
-  const benefits = ["Accès illimité 24h/24 7j/7", "Équipements de dernière génération", "Coaching personnalisé inclus", "Application mobile premium"];
+  const benefits = ["Accès illimité à toutes les salle basic fit 24h/24 7j/7", "Équipements de dernière génération", "Coaching personnalisé inclus", "Application mobile premium"];
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
