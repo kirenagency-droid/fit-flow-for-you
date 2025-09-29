@@ -5,6 +5,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import ExitIntentPopup from "@/components/ExitIntentPopup";
 import Footer from "@/components/Footer";
+import ChatBot from "@/components/ChatBot";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       </main>
       <Footer />
       <ExitIntentPopup />
+      <ChatBot />
     </div>
   );
 };

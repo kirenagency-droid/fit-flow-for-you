@@ -30,21 +30,22 @@ const HeroSection = () => {
           <div className="text-left space-y-8">
             <div className="space-y-4">
               <div className="inline-block">
-                <span className="bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide uppercase">
+                <div className="bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide uppercase flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
                   Offre Limitée
-                </span>
+                </div>
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
-                Abonnement
+                Accès Basic Fit
                 <span className="block bg-gradient-primary bg-clip-text text-transparent">
-                  Ultimate
+                  à 2€/mois
                 </span>
               </h1>
               
               <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                Transformez votre corps avec l'abonnement le plus complet du marché. 
-                Accès premium à tous nos équipements et services.
+                Accès à toutes les salles Basic Fit pour seulement 2€/mois au lieu de 40€. 
+                Économisez 95% sur votre abonnement fitness !
               </p>
             </div>
 
@@ -63,10 +64,13 @@ const HeroSection = () => {
               <Button 
                 variant="cta" 
                 size="lg"
-                className="text-xl px-8 py-6 h-auto animate-glow-pulse"
+                className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2"
                 onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
               >
-                🎁 Essai gratuit 7 jours
+                <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                S'abonner maintenant
               </Button>
               <Button 
                 variant="dark" 
@@ -93,26 +97,29 @@ const HeroSection = () => {
             <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-intense animate-float">
               <div className="text-center space-y-6">
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-white">Abonnement Ultimate</h3>
-                  <p className="text-gray-300">✅ 7 jours gratuits • Tout inclus</p>
+                  <h3 className="text-2xl font-bold text-white">Accès Basic Fit</h3>
+                  <p className="text-gray-300">Toutes les salles • Économie de 95%</p>
                 </div>
                 
                 <div className="space-y-1">
                   <div className="flex items-baseline justify-center">
-                    <span className="text-6xl font-black text-white">5</span>
+                    <span className="text-6xl font-black text-white">2</span>
                     <span className="text-3xl font-bold text-primary">€</span>
                     <span className="text-gray-300 ml-2">/mois</span>
                   </div>
-                  <p className="text-sm text-gray-400">7 jours gratuits puis 5€/mois</p>
+                  <p className="text-sm text-gray-400">Au lieu de 40€/mois • Économisez 456€/an</p>
                 </div>
 
                 <Button 
                   variant="hero" 
                   size="lg"
-                  className="w-full text-lg py-4 h-auto"
+                  className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2"
                   onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
                 >
-                  🚀 Commencer l&apos;essai gratuit
+                  <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                  </div>
+                  S'abonner maintenant
                 </Button>
                 
                 <p className="text-xs text-gray-400">

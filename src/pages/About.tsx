@@ -62,23 +62,26 @@ const About = () => {
         <section className="py-20 bg-gradient-dark">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <h1 className="text-5xl lg:text-6xl font-black text-white mb-6">
-              Découvrez l'abonnement
+              Accès Basic Fit
               <span className="block bg-gradient-primary bg-clip-text text-transparent">
-                Ultimate
+                à 2€/mois
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-              L'abonnement le plus complet du marché fitness. Tout ce dont vous avez besoin 
-              pour atteindre vos objectifs, à un prix révolutionnaire.
+              Accès à toutes les salles Basic Fit pour seulement 2€/mois au lieu de 40€. 
+              Économisez 95% et profitez d'une expérience fitness complète !
             </p>
             <div className="flex justify-center">
               <Button 
                 variant="cta" 
                 size="lg"
-                className="text-xl px-8 py-6 h-auto animate-glow-pulse"
+                className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2"
                 onClick={redirectToSubscription}
               >
-                🎁 Essai gratuit 7 jours
+                <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-primary rounded-full"></div>
+                </div>
+                S'abonner maintenant
               </Button>
             </div>
 
@@ -92,10 +95,10 @@ const About = () => {
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-black text-foreground mb-6">
-                Pourquoi choisir FitUltimate ?
+                Pourquoi Basic Fit à 2€ ?
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Une expérience fitness complète pensée pour maximiser vos résultats
+                Accès complet à toutes les salles Basic Fit avec une économie incroyable de 95%
               </p>
             </div>
 
@@ -133,25 +136,28 @@ const About = () => {
               
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border">
                 <div className="text-center space-y-6">
-                  <h3 className="text-3xl font-bold text-foreground">Abonnement Ultimate</h3>
+                  <h3 className="text-3xl font-bold text-foreground">Accès Basic Fit</h3>
                   <div className="space-y-2">
                     <div className="flex items-baseline justify-center">
-                      <span className="text-6xl font-black text-foreground">5</span>
+                      <span className="text-6xl font-black text-foreground">2</span>
                       <span className="text-3xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2 text-xl">/mois</span>
                     </div>
-                    <p className="text-muted-foreground">🎁 7 jours gratuits puis 5€/mois • Sans engagement</p>
+                    <p className="text-muted-foreground">Au lieu de 40€/mois • Économisez 456€ par an</p>
                   </div>
                   <Button 
                     variant="cta" 
                     size="lg"
-                    className="w-full text-lg py-6 h-auto animate-glow-pulse"
+                    className="w-full text-lg py-6 h-auto animate-glow-pulse flex items-center justify-center gap-2"
                     onClick={redirectToSubscription}
                   >
-                    🚀 Commencer l&apos;essai gratuit
+                    <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    </div>
+                    S'abonner maintenant
                   </Button>
                   <p className="text-sm text-muted-foreground">
-                    ✅ 7 jours 100% gratuits • Activé immédiatement
+                    Activé immédiatement • Accès à toutes les salles Basic Fit
                   </p>
                 </div>
               </div>
@@ -184,18 +190,18 @@ const About = () => {
                   Y a-t-il des frais cachés ?
                 </h3>
                 <p className="text-muted-foreground">
-                  Non, aucun frais caché ! Le prix affiché de 5€/mois est tout inclus. 
+                  Non, aucun frais caché ! Le prix affiché de 2€/mois est tout inclus. 
                   Aucun frais d'inscription, aucun coût supplémentaire.
                 </p>
               </div>
               
               <div className="bg-card rounded-xl p-6 shadow-card border border-border">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Comment fonctionne la période d'essai gratuite ?
+                  Comment cette offre à 2€ est-elle possible ?
                 </h3>
                 <p className="text-muted-foreground">
-                  Profitez de 7 jours gratuits pour tester tous nos services. Si vous n'êtes pas 
-                  satisfait, annulez avant la fin de la période d'essai sans aucun frais.
+                  Grâce à notre partenariat exclusif avec Basic Fit, nous pouvons proposer 
+                  l'accès à toutes leurs salles pour seulement 2€/mois au lieu de 40€.
                 </p>
               </div>
             </div>
