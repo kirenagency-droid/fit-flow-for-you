@@ -14,7 +14,7 @@ const Confirmation = () => {
       setIsRedirecting(false);
     }, 2000);
   };
-  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium"];
+  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Un sac de sport offert !", "Commencez maintenant et payez votre première période payante après vos semaines offertes !", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium"];
   return <div className="min-h-screen bg-background">
       <Header />
       
