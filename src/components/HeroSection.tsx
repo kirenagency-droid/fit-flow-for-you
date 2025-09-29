@@ -64,6 +64,7 @@ const HeroSection = () => {
                 variant="cta" 
                 size="lg"
                 className="text-xl px-8 py-6 h-auto"
+                onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
               >
                 Commencer à 5€/mois
               </Button>
@@ -71,8 +72,9 @@ const HeroSection = () => {
                 variant="dark" 
                 size="lg"
                 className="text-lg px-8 py-4 h-auto"
+                asChild
               >
-                En savoir plus
+                <a href="/en-savoir-plus">En savoir plus</a>
               </Button>
             </div>
           </div>
@@ -99,6 +101,7 @@ const HeroSection = () => {
                   variant="hero" 
                   size="lg"
                   className="w-full text-lg py-4 h-auto"
+                  onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
                 >
                   S'abonner maintenant
                 </Button>

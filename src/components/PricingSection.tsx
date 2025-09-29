@@ -61,7 +61,14 @@ const PricingSection = () => {
 
                 {/* CTA */}
                 <div className="space-y-4">
-                  <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto">Commencer </Button>
+                  <Button 
+                    variant="cta" 
+                    size="lg" 
+                    className="w-full text-lg py-6 h-auto"
+                    onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
+                  >
+                    Commencer
+                  </Button>
                   <p className="text-center text-sm text-muted-foreground">
                     Activé immédiatement • Premiers 7 jours gratuits
                   </p>

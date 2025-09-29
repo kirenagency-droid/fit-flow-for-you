@@ -35,7 +35,11 @@ const Header = () => {
             <Button variant="ghost" className="text-white hover:text-primary hidden sm:inline-flex">
               Connexion
             </Button>
-            <Button variant="hero" size="sm">
+            <Button 
+              variant="hero" 
+              size="sm"
+              onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
+            >
               S'abonner
             </Button>
           </div>
