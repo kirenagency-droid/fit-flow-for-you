@@ -14,7 +14,7 @@ const TrustBadges = () => {
     },
     {
       icon: Clock,
-      title: "7 jours gratuits",
+      title: "1 mois garantie",
       description: "Satisfait ou remboursé"
     },
     {
