@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-fitness.jpg";
 const HeroSection = () => {
-  const benefits = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Équipements de dernière génération", "Coaching personnalisé inclus", "Application mobile premium", "Invitations illimitées d'amis", "Gel de votre abonnement sans frais supplémentaires", "Yanga Sportswater inclus", "Accès illimité aux fauteuils de massage"];
+  const benefits = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Équipements de dernière génération", "Coaching personnalisé inclus", "Application mobile premium"];
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
@@ -50,8 +50,8 @@ const HeroSection = () => {
                 </div>
                 S'abonner maintenant
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto text-white border-white/30 hover:bg-white hover:text-black transition-colors">
-                Trouver mon club
+              <Button variant="dark" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
+                
               </Button>
             </div>
 

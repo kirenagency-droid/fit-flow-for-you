@@ -14,7 +14,7 @@ const Confirmation = () => {
       setIsRedirecting(false);
     }, 2000);
   };
-  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium", "Invitations illimitées d'amis", "Gel de votre abonnement sans frais supplémentaires", "Yanga Sportswater inclus", "Accès illimité aux fauteuils de massage"];
+  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium"];
   return <div className="min-h-screen bg-background">
       <Header />
       
