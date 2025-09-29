@@ -51,7 +51,7 @@ const HeroSection = () => {
                 S'abonner maintenant
               </Button>
               <Button variant="dark" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
-                <a href="/en-savoir-plus">En savoir plus</a>
+                
               </Button>
             </div>
 
