@@ -1,24 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-fitness.jpg";
-
 const HeroSection = () => {
-  const benefits = [
-    "Accès illimité 24h/24 7j/7",
-    "Équipements de dernière génération", 
-    "Coaching personnalisé inclus",
-    "Application mobile premium"
-  ];
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
+  const benefits = ["Accès illimité 24h/24 7j/7", "Équipements de dernière génération", "Coaching personnalisé inclus", "Application mobile premium"];
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-dark">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Salle de sport moderne" 
-          className="w-full h-full object-cover opacity-30"
-        />
+        <img src={heroImage} alt="Salle de sport moderne" className="w-full h-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
       </div>
 
@@ -43,41 +31,26 @@ const HeroSection = () => {
                 </span>
               </h1>
               
-              <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-                Accès à toutes les salles Basic Fit pour seulement 2€/mois au lieu de 40€. 
-                Économisez 95% sur votre abonnement fitness !
-              </p>
+              
             </div>
 
             {/* Benefits List */}
             <div className="space-y-3">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-center space-x-3">
+              {benefits.map((benefit, index) => <div key={index} className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 text-primary flex-shrink-0" />
                   <span className="text-white text-lg">{benefit}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button 
-                variant="cta" 
-                size="lg"
-                className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2"
-                onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
-              >
+              <Button variant="cta" size="lg" className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
                 <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
                 </div>
                 S'abonner maintenant
               </Button>
-              <Button 
-                variant="dark" 
-                size="lg"
-                className="text-lg px-8 py-4 h-auto"
-                asChild
-              >
+              <Button variant="dark" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
                 <a href="/en-savoir-plus">En savoir plus</a>
               </Button>
             </div>
@@ -110,12 +83,7 @@ const HeroSection = () => {
                   <p className="text-sm text-gray-400">Au lieu de 40€/mois • Économisez 456€/an</p>
                 </div>
 
-                <Button 
-                  variant="hero" 
-                  size="lg"
-                  className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2"
-                  onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
-                >
+                <Button variant="hero" size="lg" className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
                   <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
                   </div>
@@ -130,8 +98,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
