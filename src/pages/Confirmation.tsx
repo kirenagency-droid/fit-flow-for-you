@@ -19,18 +19,12 @@ const Confirmation = () => {
       <Header />
       
       <main className="py-8 md:py-20">
-        <div className="max-w-4xl mx-auto md:px-6 px-0">
+        <div className="max-w-4xl mx-auto md:px-6 px-0 my-[16px]">
           {/* Header */}
           <div className="text-center mb-8 md:mb-12">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6">
-              <Clock className="h-8 w-8 md:h-10 md:w-10 text-white" />
-            </div>
-            <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-3 md:mb-4 px-4">
-              Confirmez votre abonnement Basic-Fit
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground px-4">
-              Vous êtes sur le point de profiter de l'offre exceptionnelle à 2€/mois
-            </p>
+            
+            <h1 className="text-2xl md:text-4xl font-bold text-foreground mb-3 md:mb-4 px-4">Confirmez votre abonnement </h1>
+            
           </div>
 
           <div className="grid lg:grid-cols-2 gap-6 md:gap-12">
@@ -47,9 +41,7 @@ const Confirmation = () => {
                       <span className="text-xl md:text-2xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2">/mois</span>
                     </div>
-                    <p className="text-center text-sm text-muted-foreground">
-                      Pendant 9 mois • Puis 40€/mois • Économisez 342€
-                    </p>
+                    <p className="text-center text-sm text-muted-foreground">Pendant 12 mois • Puis 34,99€/mois • Économisez 342€</p>
                   </div>
 
                   {/* Avantages */}
@@ -84,7 +76,7 @@ const Confirmation = () => {
 
             {/* Actions */}
             <div className="space-y-6 md:space-y-8">
-              <div className="bg-card border-2 border-primary/20 rounded-2xl p-4 md:p-8">
+              <div className="bg-card border-2 border-primary/20 rounded-2xl p-4 md:p-8 px-[2px]">
                 <h2 className="text-xl md:text-2xl font-bold text-foreground mb-4 md:mb-6 text-center">
                   Prêt à commencer ?
                 </h2>
@@ -92,7 +84,7 @@ const Confirmation = () => {
                 <div className="space-y-4 md:space-y-6">
                   <div className="flex items-center justify-center space-x-1 mb-3 md:mb-4">
                     {[1, 2, 3, 4, 5].map(star => <Star key={star} className="h-5 w-5 fill-yellow-400 text-yellow-400" />)}
-                    <span className="ml-2 text-sm text-muted-foreground">4.8/5 (12,450 avis)</span>
+                    <span className="ml-2 text-sm text-muted-foreground">4.8/5 </span>
                   </div>
 
                   <Button variant="cta" size="lg" className="w-full text-base md:text-lg py-4 md:py-6 h-auto" onClick={handleConfirmSubscription} disabled={isRedirecting}>
@@ -107,9 +99,7 @@ const Confirmation = () => {
                       </>}
                   </Button>
 
-                  <p className="text-center text-xs text-muted-foreground px-2">
-                    En cliquant sur ce bouton, vous serez redirigé vers la page de paiement sécurisée
-                  </p>
+                  <p className="text-center text-xs text-muted-foreground px-2">En cliquant sur ce bouton, vous serez redirigé vers la page de paiement sécurisée de notre partenaire.</p>
 
                   <Link to="/" className="flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors text-sm">
                     <ArrowLeft className="h-4 w-4 mr-1" />
