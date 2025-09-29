@@ -56,7 +56,8 @@ const PricingSection = () => {
                     S'abonner maintenant
                   </Button>
                   <p className="text-center text-sm text-muted-foreground">
-                    Activé immédiatement • Accès à toutes les salles Basic Fit
+                    Activé immédiatement • Accès à toutes les salles Basic Fit<br />
+                    Les identifiants de connexion seront transmis à votre adresse e-mail
                   </p>
                 </div>
               </div>
