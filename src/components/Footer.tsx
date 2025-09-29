@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <Dumbbell className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-black">FitUltimate</span>
+              <span className="text-xl font-black">FitClub</span>
             </div>
             <p className="text-white/80 leading-relaxed">
               La solution fitness complète qui transforme votre routine d'entraînement. 
