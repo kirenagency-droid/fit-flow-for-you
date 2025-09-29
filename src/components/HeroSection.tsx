@@ -58,7 +58,7 @@ const HeroSection = () => {
             {/* Trust indicators */}
             <div className="flex items-center space-x-6 pt-4 text-sm text-gray-400">
               <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse mx-[9px]"></div>
+                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse mx-[9px] px-[4px] my-0 py-0"></div>
                 <span>1,247 membres connectés</span>
               </div>
               <div>      ⭐ 4.9/5 </div>
