@@ -1,8 +1,6 @@
 import { Dumbbell, Instagram, Facebook, Twitter } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary text-white py-16">
+  return <footer className="bg-secondary text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Main Footer Content */}
@@ -21,15 +19,9 @@ const Footer = () => {
               Rejoignez notre communauté de passionnés.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-smooth">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-smooth">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-smooth">
-                <Twitter className="h-5 w-5" />
-              </a>
+              
+              
+              
             </div>
           </div>
 
@@ -83,8 +75,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
