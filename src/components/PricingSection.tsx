@@ -49,7 +49,7 @@ const PricingSection = () => {
 
                 {/* CTA */}
                 <div className="space-y-4">
-                  <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto flex items-center justify-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
+                  <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto flex items-center justify-center gap-2" onClick={() => window.location.href = "/confirmation"}>
                     <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
                       <div className="w-2 h-2 bg-primary rounded-full px-0 my-0 py-0 mx-[4px]"></div>
                     </div>

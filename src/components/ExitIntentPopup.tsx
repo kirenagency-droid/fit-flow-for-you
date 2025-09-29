@@ -18,7 +18,7 @@ const ExitIntentPopup = () => {
     setIsVisible(false);
   };
   const handleSubscribe = () => {
-    window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank");
+    window.location.href = "/confirmation";
     setIsVisible(false);
   };
   if (!isVisible) return null;

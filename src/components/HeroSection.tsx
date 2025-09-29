@@ -44,7 +44,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button variant="cta" size="lg" className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
+              <Button variant="cta" size="lg" className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2" onClick={() => window.location.href = "/confirmation"}>
                 <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
                 </div>
@@ -83,7 +83,7 @@ const HeroSection = () => {
                   <p className="text-sm text-gray-400">Pendant 9 mois • Puis 40€/mois • Économisez 342€</p>
                 </div>
 
-                <Button variant="hero" size="lg" className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
+                <Button variant="hero" size="lg" className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2" onClick={() => window.location.href = "/confirmation"}>
                   <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
                   </div>
