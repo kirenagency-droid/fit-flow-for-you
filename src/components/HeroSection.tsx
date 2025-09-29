@@ -18,10 +18,7 @@ const HeroSection = () => {
           <div className="text-left space-y-8">
             <div className="space-y-4">
               <div className="inline-block">
-                <div className="bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-semibold tracking-wide uppercase flex items-center gap-2">
-                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                  Offre Limitée
-                </div>
+                
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight">
