@@ -1,20 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check, Star } from "lucide-react";
-
 const PricingSection = () => {
-  const features = [
-    "Accès illimité aux équipements",
-    "Cours collectifs en streaming",
-    "Programme d'entraînement personnalisé",
-    "Suivi de progression avancé",
-    "Support client prioritaire",
-    "Application mobile complète",
-    "Accès à tous les centres",
-    "Vestiaires premium"
-  ];
-
-  return (
-    <section className="py-20 bg-background">
+  const features = ["Accès illimité aux équipements", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Accès à tous les centres", "Vestiaires premium"];
+  return <section className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Section Header */}
@@ -64,26 +52,18 @@ const PricingSection = () => {
                 <div className="space-y-4">
                   <h4 className="font-bold text-foreground text-lg">Tout inclus :</h4>
                   <div className="grid gap-3">
-                    {features.map((feature, index) => (
-                      <div key={index} className="flex items-center space-x-3">
+                    {features.map((feature, index) => <div key={index} className="flex items-center space-x-3">
                         <div className="flex-shrink-0 w-5 h-5 bg-primary rounded-full flex items-center justify-center">
                           <Check className="h-3 w-3 text-white" />
                         </div>
                         <span className="text-foreground">{feature}</span>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </div>
 
                 {/* CTA */}
                 <div className="space-y-4">
-                  <Button 
-                    variant="cta" 
-                    size="lg"
-                    className="w-full text-lg py-6 h-auto"
-                  >
-                    Commencer mon abonnement
-                  </Button>
+                  <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto">Commencer </Button>
                   <p className="text-center text-sm text-muted-foreground">
                     Activé immédiatement • Premiers 7 jours gratuits
                   </p>
@@ -95,7 +75,7 @@ const PricingSection = () => {
 
         {/* Trust Indicators */}
         <div className="mt-16 text-center space-y-4">
-          <p className="text-muted-foreground">Rejoignez plus de 50,000 membres satisfaits</p>
+          <p className="text-muted-foreground">Rejoignez plus de 1,000 membres satisfaits</p>
           <div className="flex justify-center items-center space-x-8 opacity-60">
             <div className="text-2xl font-bold text-muted-foreground">4.8★</div>
             <div className="text-sm text-muted-foreground">Note moyenne</div>
@@ -104,8 +84,6 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
