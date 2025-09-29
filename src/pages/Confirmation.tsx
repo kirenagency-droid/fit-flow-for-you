@@ -14,7 +14,7 @@ const Confirmation = () => {
       setIsRedirecting(false);
     }, 2000);
   };
-  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Un sac de sport offert !", "Commencez maintenant et payez votre première période payante après vos semaines offertes !", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium"];
+  const features = ["Accès illimité à toutes nos salles Basic-Fit 24h/24 7j/7", "Cours collectifs en streaming", "Programme d'entraînement personnalisé", "Suivi de progression avancé", "Support client prioritaire", "Application mobile complète", "Vestiaires premium"];
   return <div className="min-h-screen bg-background">
       <Header />
       
@@ -52,7 +52,7 @@ const Confirmation = () => {
                           <div className="flex-shrink-0 w-5 h-5 bg-primary rounded-full flex items-center justify-center">
                             <Check className="h-3 w-3 text-white" />
                           </div>
-                          
+                          <span className="text-foreground text-sm md:text-base">{feature}</span>
                         </div>)}
                     </div>
                   </div>
