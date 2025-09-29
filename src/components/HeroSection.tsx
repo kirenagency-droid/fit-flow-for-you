@@ -63,10 +63,10 @@ const HeroSection = () => {
               <Button 
                 variant="cta" 
                 size="lg"
-                className="text-xl px-8 py-6 h-auto"
+                className="text-xl px-8 py-6 h-auto animate-glow-pulse"
                 onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
               >
-                Commencer à 5€/mois
+                🎁 Essai gratuit 7 jours
               </Button>
               <Button 
                 variant="dark" 
@@ -77,6 +77,15 @@ const HeroSection = () => {
                 <a href="/en-savoir-plus">En savoir plus</a>
               </Button>
             </div>
+
+            {/* Trust indicators */}
+            <div className="flex items-center space-x-6 pt-4 text-sm text-gray-400">
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                <span>1,247 membres connectés</span>
+              </div>
+              <div>⭐ 4.9/5 (Google Reviews)</div>
+            </div>
           </div>
 
           {/* Right Column - Pricing Card */}
@@ -85,7 +94,7 @@ const HeroSection = () => {
               <div className="text-center space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-white">Abonnement Ultimate</h3>
-                  <p className="text-gray-300">Tout inclus</p>
+                  <p className="text-gray-300">✅ 7 jours gratuits • Tout inclus</p>
                 </div>
                 
                 <div className="space-y-1">
@@ -94,7 +103,7 @@ const HeroSection = () => {
                     <span className="text-3xl font-bold text-primary">€</span>
                     <span className="text-gray-300 ml-2">/mois</span>
                   </div>
-                  <p className="text-sm text-gray-400">Sans engagement</p>
+                  <p className="text-sm text-gray-400">7 jours gratuits puis 5€/mois</p>
                 </div>
 
                 <Button 
@@ -103,7 +112,7 @@ const HeroSection = () => {
                   className="w-full text-lg py-4 h-auto"
                   onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
                 >
-                  S'abonner maintenant
+                  🚀 Commencer l&apos;essai gratuit
                 </Button>
                 
                 <p className="text-xs text-gray-400">

@@ -1,7 +1,9 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,9 +13,11 @@ const Index = () => {
       <main>
         <HeroSection />
         <BenefitsSection />
+        <TestimonialsSection />
         <PricingSection />
       </main>
       <Footer />
+      <ExitIntentPopup />
     </div>
   );
 };

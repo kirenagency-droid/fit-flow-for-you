@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Clock, Users, Trophy, Heart, Shield } from "lucide-react";
 import Header from "@/components/Header";
+import TrustBadges from "@/components/TrustBadges";
 import Footer from "@/components/Footer";
 
 const About = () => {
@@ -74,12 +75,15 @@ const About = () => {
               <Button 
                 variant="cta" 
                 size="lg"
-                className="text-xl px-8 py-6 h-auto"
+                className="text-xl px-8 py-6 h-auto animate-glow-pulse"
                 onClick={redirectToSubscription}
               >
-                S'abonner maintenant à 5€/mois
+                🎁 Essai gratuit 7 jours
               </Button>
             </div>
+
+            {/* Trust Badges */}
+            <TrustBadges />
           </div>
         </section>
 
@@ -136,18 +140,18 @@ const About = () => {
                       <span className="text-3xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2 text-xl">/mois</span>
                     </div>
-                    <p className="text-muted-foreground">Sans engagement • Résiliation facile</p>
+                    <p className="text-muted-foreground">🎁 7 jours gratuits puis 5€/mois • Sans engagement</p>
                   </div>
                   <Button 
                     variant="cta" 
                     size="lg"
-                    className="w-full text-lg py-6 h-auto"
+                    className="w-full text-lg py-6 h-auto animate-glow-pulse"
                     onClick={redirectToSubscription}
                   >
-                    Commencer maintenant
+                    🚀 Commencer l&apos;essai gratuit
                   </Button>
                   <p className="text-sm text-muted-foreground">
-                    Premiers 7 jours gratuits • Activé immédiatement
+                    ✅ 7 jours 100% gratuits • Activé immédiatement
                   </p>
                 </div>
               </div>

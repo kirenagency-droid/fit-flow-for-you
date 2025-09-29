@@ -15,8 +15,8 @@ const PricingSection = () => {
             Un prix, tout inclus
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Profitez de tous nos services premium pour seulement 5€ par mois. 
-            Aucun frais caché, aucun engagement.
+            <span className="font-bold text-primary">🎁 7 jours d'essai gratuit</span> puis seulement 5€ par mois. 
+            Aucun frais caché, aucun engagement. <span className="font-semibold">Rejoignez 1,247 membres satisfaits !</span>
           </p>
         </div>
 
@@ -25,7 +25,7 @@ const PricingSection = () => {
           <div className="relative">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-              <div className="bg-gradient-primary text-white py-2 rounded-full font-bold text-sm shadow-glow px-[31px]">      Le plus              populaire</div>
+              <div className="bg-gradient-primary text-white py-2 rounded-full font-bold text-sm shadow-glow px-[31px] animate-pulse">🔥 OFFRE LIMITÉE - Plus que 47 places</div>
             </div>
 
             <div className="bg-card border-2 border-primary/20 rounded-3xl p-8 shadow-card relative overflow-hidden">
@@ -42,7 +42,7 @@ const PricingSection = () => {
                       <span className="text-3xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2 text-xl">/mois</span>
                     </div>
-                    <p className="text-muted-foreground">Sans engagement • Résiliation facile</p>
+                    <p className="text-muted-foreground">🎁 7 jours gratuits puis 5€/mois • Sans engagement</p>
                   </div>
                 </div>
 
@@ -67,10 +67,10 @@ const PricingSection = () => {
                     className="w-full text-lg py-6 h-auto"
                     onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
                   >
-                    Commencer
+                    🚀 Commencer l'essai gratuit
                   </Button>
                   <p className="text-center text-sm text-muted-foreground">
-                    Activé immédiatement • Premiers 7 jours gratuits
+                    ✅ Activé immédiatement • 7 jours 100% gratuits • Puis 5€/mois
                   </p>
                 </div>
               </div>
@@ -79,13 +79,28 @@ const PricingSection = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="mt-16 text-center space-y-4">
-          <p className="text-muted-foreground">Rejoignez plus de 1,000 membres satisfaits</p>
-          <div className="flex justify-center items-center space-x-8 opacity-60">
-            <div className="text-2xl font-bold text-muted-foreground">4.8★</div>
-            <div className="text-sm text-muted-foreground">Note moyenne</div>
-            <div className="w-px h-8 bg-border"></div>
-            <div className="text-sm text-muted-foreground">Paiement sécurisé</div>
+        <div className="mt-16 text-center space-y-6">
+          <p className="text-muted-foreground font-semibold">
+            🔥 <span className="text-primary">1,247 personnes</span> se sont abonnées cette semaine
+          </p>
+          <div className="flex flex-wrap justify-center items-center space-x-8 opacity-80">
+            <div className="flex items-center space-x-2">
+              <div className="text-2xl">⭐</div>
+              <div>
+                <div className="font-bold text-foreground">4.9/5</div>
+                <div className="text-sm text-muted-foreground">Google Reviews</div>
+              </div>
+            </div>
+            <div className="w-px h-8 bg-border hidden md:block"></div>
+            <div className="flex items-center space-x-2">
+              <div className="text-2xl">🔒</div>
+              <div className="text-sm text-muted-foreground">Paiement 100% sécurisé</div>
+            </div>
+            <div className="w-px h-8 bg-border hidden md:block"></div>
+            <div className="flex items-center space-x-2">
+              <div className="text-2xl">📞</div>
+              <div className="text-sm text-muted-foreground">Support 24/7</div>
+            </div>
           </div>
         </div>
       </div>
