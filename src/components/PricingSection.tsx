@@ -25,9 +25,7 @@ const PricingSection = () => {
           <div className="relative">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-              <div className="bg-gradient-primary text-white px-6 py-2 rounded-full font-bold text-sm shadow-glow">
-                Le plus populaire
-              </div>
+              <div className="bg-gradient-primary text-white py-2 rounded-full font-bold text-sm shadow-glow px-[31px]">      Le plus              populaire</div>
             </div>
 
             <div className="bg-card border-2 border-primary/20 rounded-3xl p-8 shadow-card relative overflow-hidden">
