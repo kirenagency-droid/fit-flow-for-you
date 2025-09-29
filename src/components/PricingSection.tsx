@@ -25,7 +25,7 @@ const PricingSection = () => {
           <div className="relative">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-              <div className="bg-gradient-primary text-white py-2 rounded-full font-bold text-sm shadow-glow px-[31px] animate-pulse">🔥 OFFRE LIMITÉE - Plus que 47 places</div>
+              
             </div>
 
             <div className="bg-card border-2 border-primary/20 rounded-3xl p-8 shadow-card relative overflow-hidden">
@@ -61,12 +61,7 @@ const PricingSection = () => {
 
                 {/* CTA */}
                 <div className="space-y-4">
-                  <Button 
-                    variant="cta" 
-                    size="lg" 
-                    className="w-full text-lg py-6 h-auto"
-                    onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}
-                  >
+                  <Button variant="cta" size="lg" className="w-full text-lg py-6 h-auto" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>
                     🚀 Commencer l'essai gratuit
                   </Button>
                   <p className="text-center text-sm text-muted-foreground">
