@@ -62,9 +62,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-white/60 text-sm">
-              © 2024 FitUltimate. Tous droits réservés.
-            </p>
+            <p className="text-white/60 text-sm">© 2024 FitClub. Tous droits réservés.</p>
             <div className="flex items-center space-x-6 text-sm text-white/60">
               <span>Paiement sécurisé</span>
               <span>•</span>
