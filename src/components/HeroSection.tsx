@@ -80,7 +80,7 @@ const HeroSection = () => {
                     <span className="text-3xl font-bold text-primary">€</span>
                     <span className="text-gray-300 ml-2">/mois</span>
                   </div>
-                  <p className="text-sm text-gray-400">Au lieu de 40€/mois • Économisez 456€/an</p>
+                  <p className="text-sm text-gray-400">Pendant 9 mois • Puis 40€/mois • Économisez 342€</p>
                 </div>
 
                 <Button variant="hero" size="lg" className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2" onClick={() => window.open("https://flownetwork.g2afse.com/click?pid=4784&offer_id=10232", "_blank")}>

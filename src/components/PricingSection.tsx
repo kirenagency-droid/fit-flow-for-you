@@ -30,7 +30,7 @@ const PricingSection = () => {
                       <span className="text-3xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2 text-xl">/mois</span>
                     </div>
-                    <p className="text-muted-foreground">Au lieu de 40€/mois • Économisez 456€ par an</p>
+                    <p className="text-muted-foreground">Pendant 9 mois • Puis 40€/mois • Économisez 342€</p>
                   </div>
                 </div>
 
