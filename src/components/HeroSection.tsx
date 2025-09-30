@@ -41,7 +41,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button variant="cta" size="lg" className="text-xl px-8 py-6 h-auto animate-glow-pulse flex items-center gap-2" onClick={() => window.location.href = "/confirmation"}>
+              <Button variant="cta" size="lg" className="text-xl px-8 py-6 h-auto flex items-center gap-2" onClick={() => window.location.href = "/confirmation"}>
                 <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
                 </div>
@@ -64,7 +64,7 @@ const HeroSection = () => {
 
           {/* Right Column - Pricing Card */}
           <div className="lg:justify-self-end">
-            <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-intense animate-float">
+            <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-intense">
               <div className="text-center space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-white">Accès Basic Fit</h3>
