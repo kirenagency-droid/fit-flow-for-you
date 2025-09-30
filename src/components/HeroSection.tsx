@@ -77,7 +77,7 @@ const HeroSection = () => {
                     <span className="text-3xl font-bold text-primary">€</span>
                     <span className="text-gray-300 ml-2">/mois</span>
                   </div>
-                  <p className="text-sm text-gray-400">Pendant 9 mois • Puis 40€/mois • Économisez 342€</p>
+                  <p className="text-sm text-gray-400">Pendant 3 mois • Puis 34,99€/mois </p>
                 </div>
 
                 <Button variant="hero" size="lg" className="w-full text-lg py-4 h-auto flex items-center justify-center gap-2" onClick={() => window.location.href = "/confirmation"}>
