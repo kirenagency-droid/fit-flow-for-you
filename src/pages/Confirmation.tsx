@@ -41,7 +41,7 @@ const Confirmation = () => {
                       <span className="text-xl md:text-2xl font-bold text-primary">€</span>
                       <span className="text-muted-foreground ml-2">/mois</span>
                     </div>
-                    <p className="text-center text-sm text-muted-foreground">Pendant 12 mois • Puis 34,99€/mois • Économisez 342€</p>
+                    <p className="text-center text-sm text-muted-foreground">Pendant 3 mois • Puis 34,99€/mois </p>
                   </div>
 
                   {/* Avantages */}
